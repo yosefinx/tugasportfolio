@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+  background: #f9fafb;
+  color: #333;
+}
+
+main {
+  max-width: 1000px;
+  margin: auto;
+  padding: 40px 20px;
+}
+
+header {
+  text-align: center;
+  padding: 60px 20px;
+  background: #111;
+  color: white;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+header p {
+  color: #bbb;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 10px;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+#skills ul {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+#skills li {
+  background: #111;
+  color: white;
+  padding: 8px 16px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+#skills li:hover {
+  background: #2563eb;
+  cursor: pointer;
+}
+
+#portfolio {
+  display: grid;
+  gap: 30px;
+}
+
+article {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+article h3 {
+  margin-bottom: 10px;
+}
+
+img,
+video {
+  width: 100%;
+  max-width: 400px;
+  margin: 15px 0;
+  border-radius: 8px;
+}
+
+#contact a {
+  color: #2563eb;
+  text-decoration: none;
+}
+
+#contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  color: white;
+  margin-top: 40px;
+}
