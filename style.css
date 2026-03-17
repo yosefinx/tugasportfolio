@@ -12,6 +12,14 @@ body {
   text-align: center;
 }
 
+.jadwal {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
 main {
   max-width: 1000px;
   margin: auto;
@@ -117,6 +125,7 @@ table {
   width: 90%;
   margin: 20px auto;
   border-collapse: collapse;
+  
 }
 
 th,
